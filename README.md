@@ -13,8 +13,8 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
 
 ## Recomendaciones y buenas prácticas
 
-- repo amb apunts HTML + CSS + JS
-- iniciar repo
+- [Apunts HTML + CSS + JS](stratocastero.github.io/javascript_lasalle/apunts.html)
+- Trabajar siempre en el repo
 
 ## Recursos
 
