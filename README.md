@@ -4,6 +4,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
 
 ## Contenidos
 
+#### 28 de junio
 - hello world
 - execució en diferents parts de l'HTML
 - console.log()
