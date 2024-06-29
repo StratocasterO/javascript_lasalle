@@ -50,15 +50,23 @@ console.log(profe);
 
 alumnes = [
     alumne,
-    {
+    alumne2 = {
         nom: "Pablo",
         cognom: "Perez",
         edat: 19,
-        hobbie: ""
+        hobbie: "🧶"
+    },
+    {
+        nom: "Maria",
+        cognom: "Martínez",
+        edat: 49,
+        hobbie: "🚲"
     }
 ]
 
 console.log(alumnes);
+console.log(alumne2);
+console.log(alumnes[2]);
 
 // ----------------------------------------------------------------
 
