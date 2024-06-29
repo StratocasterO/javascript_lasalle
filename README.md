@@ -11,9 +11,12 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - variables -> tipus de dades
 
 #### 29 de juny
-- repàs gi
+- repàs git
 - bones pràctiques
 - arrays, objectes
+
+#### 6 de juliol
+- corregir exercici arrays + objectes
 
 ## Recomendaciones y buenas prácticas
 
