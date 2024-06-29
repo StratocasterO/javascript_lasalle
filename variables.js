@@ -35,4 +35,11 @@ console.log("Edad: " + userAge, "\nAños de experiencia: " + userExperience);
 
 // ESPACIO = "-";
 
+a = 1;
+b = 2;
+
+// TODO: afegiu codi
+
+console.log(a, b); // 2, 1
+
 // TODO: arrays, objects
