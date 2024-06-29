@@ -38,6 +38,12 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
     - [Flexbox Froggy](https://flexboxfroggy.com/#es)
     - [Grid Garden](https://cssgridgarden.com/)
 - YouTube
+- Extensions VSC:
+    - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+    - [Open HTML in browser](https://marketplace.visualstudio.com/items?itemName=peakchen90.open-html-in-browser)
+    - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+    - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+    - [To-do tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 ## Extres
 
