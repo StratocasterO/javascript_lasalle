@@ -20,6 +20,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
     - Crear repo en Github
     - Copiar URL del repo
     - Clonar el repo desde la pestaña de *Source Control* en nuestra **carpeta general**
+- [Repo de prova](https://github.com/StratocasterO/prueba_salle) creat per mostrar el mètode
 
 ## Recursos
 
