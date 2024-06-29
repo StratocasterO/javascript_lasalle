@@ -14,7 +14,12 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juni
 ## Recomendaciones y buenas prácticas
 
 - [Apunts HTML + CSS + JS](http://stratocastero.github.io/javascript_lasalle/apunts.html)
+- Una única finestra del VSC (amb la **carpeta general** que conté els repos)
 - Trabajar siempre en el repo
+- Mètode infalible per crear repos sense problemes:
+    - Crear repo en Github
+    - Copiar URL del repo
+    - Clonar el repo desde la pestaña de *Source Control* en nuestra **carpeta general**
 
 ## Recursos
 
