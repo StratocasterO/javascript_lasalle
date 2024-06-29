@@ -1,14 +1,18 @@
 # JavaScript La Salle
 
-Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de junio de 2024 - 27 de septiembre de 2024)
+Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny - 27 de setembre de 2024)
 
 ## Contenidos
 
-#### 28 de junio
+#### 28 de juny
 - hello world
 - execució en diferents parts de l'HTML
 - console.log()
 - variables -> tipus de dades
+
+#### 29 de juny
+- repàs gi
+- bones pràctiques
 - arrays, objectes
 
 ## Recomendaciones y buenas prácticas
