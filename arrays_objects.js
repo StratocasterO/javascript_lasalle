@@ -47,3 +47,15 @@ profe.nom = "Omar"
 profe.edat = 33
 
 console.log(profe);
+
+alumnes = [
+    alumne,
+    {
+        nom: "Pablo",
+        cognom: "Perez",
+        edat: 19,
+        hobbie: ""
+    }
+]
+
+console.log(alumnes);
