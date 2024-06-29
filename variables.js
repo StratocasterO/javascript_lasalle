@@ -38,8 +38,14 @@ console.log("Edad: " + userAge, "\nAños de experiencia: " + userExperience);
 a = 1;
 b = 2;
 
-// TODO: afegiu codi
+c = a;
+a = b;
+b = c;
 
 console.log(a, b); // 2, 1
+
+[a, b] = [b, a]
+
+console.log(a, b); // 1, 2
 
 // TODO: arrays, objects
