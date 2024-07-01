@@ -17,6 +17,8 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 #### 6 de juliol
 - corregir exercici arrays + objectes
+- state of javascript
+- exercici newsletter
 
 ## Recomendaciones y buenas prácticas
 
