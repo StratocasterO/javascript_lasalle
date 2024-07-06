@@ -18,7 +18,8 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 #### 6 de juliol
 - corregir exercici arrays + objectes
 - `.toString()`, `parseFloat()`, `parseInt()`
-- mètodes d'arrays i strings
+- mètodes d'[arrays](https://www.w3schools.com/js/js_array_methods.asp) i [strings](https://www.w3schools.com/js/js_string_methods.asp)
+- [cerca en strings](https://www.w3schools.com/js/js_string_search.asp)
 - bucles
 - condicionals
 - (funcions)
