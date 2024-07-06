@@ -20,10 +20,14 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - `.toString()`, `parseFloat()`, `parseInt()`
 - mètodes d'[arrays](https://www.w3schools.com/js/js_array_methods.asp) i [strings](https://www.w3schools.com/js/js_string_methods.asp)
 - [cerca en strings](https://www.w3schools.com/js/js_string_search.asp)
+- Altres: state of javascript, newsletter
+
+#### 12 de juliol
+- funcions
 - bucles
 - condicionals
-- (funcions)
-- Altres: state of javascript, newsletter
+
+#### 13 de juliol
 
 ## Recomendaciones y buenas prácticas
 
@@ -61,6 +65,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 ## Extres
 
+- [State of JavaScript](https://2023.stateofjs.com/)
 - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
 - [Lofi girl](https://www.youtube.com/watch?v=jfKfPfyJRdk) (hiphop)
 - [Synthwave boy](https://www.youtube.com/watch?v=4xDzrJKXOOY)
