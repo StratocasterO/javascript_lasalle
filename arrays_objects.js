@@ -112,8 +112,12 @@ pokemon = [
     }
 ]
 
+console.log(pokemon);
+console.log(pokemon.toString());
+
 tipos = [pokemon[0].tipo, pokemon[1].tipo, pokemon[2].tipo, pokemon[3].tipo, pokemon[4].tipo]
 console.log(tipos);
+console.log(tipos.toString()); // convierte el array en una string con todos sus elementos
 
 nivelTotal = pokemon[0].nivel + pokemon[1].nivel + pokemon[2].nivel + pokemon[3].nivel + pokemon[4].nivel
 console.log("Nivel total: " + nivelTotal);
