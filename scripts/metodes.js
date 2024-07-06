@@ -25,14 +25,38 @@ console.log(email.toUpperCase());
 console.log("Text original: '" + text + "'");
 console.log("Text alterat: '" + text.trim().replace("l'Omar", "el profe") + "'");
 
+alter = text.trim().replace("l'Omar", "el profe");
+
 textAlt = text.trim().replaceAll(" ", "_") // guardo la string amb els espais canviats per guions baixos
 
 console.log("Text sense espais: '" + textAlt + "'");
 console.log("Text original: '" + text + "'");
 
-// TODO: provar mètodes de cerca indexOf(), includes(), ...With()
+console.log(text.trim().split(" "));
 
-console.log(text.indexOf("Omar"));
+// provar mètodes de cerca indexOf(), includes(), ...With()
+
+nom = "Omar"
+console.log(text.indexOf(nom));
+console.log(text.slice(text.indexOf(nom)));
+console.log(text.slice(text.indexOf(nom), text.indexOf(nom) + nom.length));
+
+console.log(text.includes(nom));
+console.log(text.includes("Carlos"));
+
+console.log("Text comença amb 'Aquesta': " + text.trim().startsWith("Aquesta"));
+console.log("Text comença amb 'Aquestes': " + text.trim().startsWith("Aquestes"));
+
+console.log("Text acaba amb 'mètodes': " + text.trim().endsWith("mètodes"));
+console.log("Text acaba amb 'mètode': " + text.trim().endsWith("mètode"));
+
+// censurar el nom en el text de dalt
+
+censura = "el profe"
+
+console.log("Text normal: " + text);
+console.log("Text censurat: " + text.replace(nom, "".padEnd(nom.length, "X")));
+console.log("Text censurat: " + alter.replace(censura, "".padEnd(censura.length, "X")));
 
 // TODO: gestionar dades així amb bucles i condicionals (Això pel futur)
 
