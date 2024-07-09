@@ -51,6 +51,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - [Newsletter Cassidy Williams](https://cassidoo.co/newsletter/)
 - [MDN Web docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Curso de JavaScript de w3schools](https://www.w3schools.com/js/)
+- [State of JavaScript](https://2023.stateofjs.com/)
 - [Instagram David Mraz](https://www.instagram.com/davidm_ai/)
 - Juegos CSS:
     - [CSS Dinner](https://flukeout.github.io/)
@@ -66,7 +67,6 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 ## Extres
 
-- [State of JavaScript](https://2023.stateofjs.com/)
 - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
 - [Lofi girl](https://www.youtube.com/watch?v=jfKfPfyJRdk) (hiphop)
 - [Synthwave boy](https://www.youtube.com/watch?v=4xDzrJKXOOY)
