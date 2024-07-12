@@ -23,12 +23,17 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Altres: state of javascript, newsletter
 
 #### 12 de juliol
+- repàs mètodes d'strings
 - mètodes d'[arrays](https://www.w3schools.com/js/js_array_methods.asp)
 - funcions
 - bucles
 - condicionals
 
 #### 13 de juliol
+- funcions
+- bucles
+- condicionals
+- exercicis
 
 ## Recomendaciones y buenas prácticas
 
