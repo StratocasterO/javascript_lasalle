@@ -30,7 +30,6 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - condicionals
 
 #### 13 de juliol
-- funcions
 - bucles
 - condicionals
 - exercicis
