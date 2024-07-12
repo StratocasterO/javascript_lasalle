@@ -36,3 +36,13 @@ console.log(array.flat())           // "aplana" un nivel
 console.log(array.flat().flat());   // "aplana" dos niveles
 
 console.log(array.flat(2));  // "aplana" hasta la profundidad que le digamos (puede ser Infinity)
+
+// indexOf() y lastIndexOf() son com els de strings, retornen la primera o la última posició de l'element buscat
+
+// includes() també funciona igual que el de strings (true o false)
+
+// TODO: métodos de ordenación: sort(), reverse(), toSorted(), toReversed()
+
+// TODO: métodos de ordenación compleja: sort()
+
+// TODO: métodos de busqueda compleja: find()
