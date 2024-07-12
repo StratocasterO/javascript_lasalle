@@ -41,7 +41,19 @@ console.log(array.flat(2));  // "aplana" hasta la profundidad que le digamos (pu
 
 // includes() també funciona igual que el de strings (true o false)
 
-// TODO: métodos de ordenación: sort(), reverse(), toSorted(), toReversed()
+numbers = ["One", "Two", "Three", "Four", "Five"]
+
+// toSorted() y toReversed() devuelven el array ordenado o invertido (respectivamente)
+numbers.toSorted()
+console.log(numbers);
+console.log(numbers.toSorted());
+
+// sort() y reverse() modifican el array para ordenarlo o invertirlo (respectivamente)
+numbers.sort()
+console.log(numbers);
+
+animals.sort() // les strings s'ordenen "alfabeticament" (i.e. per numero d'unicode)
+console.log(animals);
 
 // TODO: métodos de ordenación compleja: sort()
 
