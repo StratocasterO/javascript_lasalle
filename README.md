@@ -26,13 +26,11 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - repàs mètodes d'strings
 - mètodes d'[arrays](https://www.w3schools.com/js/js_array_methods.asp)
 - funcions
-- bucles
-- condicionals
 
 #### 13 de juliol
+- funcions fletxa, anònimes, autoexecutables
 - bucles
 - condicionals
-- exercicis
 
 ## Recomendaciones y buenas prácticas
 
