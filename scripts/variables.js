@@ -21,6 +21,12 @@ userSurname = "Rodríguez";
 
 console.log(`¿Qué tal estás, ${userName} ${userSurname}?`);
 
+// strings amb salts de línia
+console.log('Omar\nGonzalo\nCarlos');
+console.log(`Omar
+Gonzalo
+Carlos`);
+
 userAge = 33; // Number
 userExperience = 10;
 userHasHair = false; // Boolean
