@@ -1,0 +1,1 @@
+console.log("%cBucles", "font-weight: bold");
