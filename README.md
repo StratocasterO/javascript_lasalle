@@ -29,8 +29,11 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 #### 13 de juliol
 - funcions fletxa, anònimes, autoexecutables
-- bucles
 - condicionals
+
+#### 19 de juliol
+- corregir exercicis condicionals
+- bucles
 
 ## Recomendaciones y buenas prácticas
 
