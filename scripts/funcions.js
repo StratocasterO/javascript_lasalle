@@ -39,6 +39,10 @@ function dniOfuscado(dni) {
 
 console.log(dniOfuscado("12345678A"));
 
+/* versión arrow
+const dniOfuscado = dni => dni.slice(4).padStart(9, "X").slice(0,-2).padEnd(9, "X")
+*/
+
 // función que ofusca el dni guardado en una variable
 dni = "98765432B"
 
@@ -95,3 +99,129 @@ function arrayInvertit(array) {
     return [b, a]
 }
 */
+
+console.log(arrayInvertit);
+
+arrInv = arrayInvertit // asigna la definición de la funciín a otra "variable"
+
+console.log(arrInv);
+
+console.log(arrInv(["A", "B"]))
+
+// Funciones flecha ----------------------------------------------------
+
+const logRojo = (content) => {
+    console.log("%c" + content, "color: red");
+}
+
+const logAzul = (content1, content2 = "") => {
+    console.log("%c" + content1 + content2, "color: blue");
+}
+
+logRojo("Hola, Omar!");
+logAzul("Hola, ", "Omar!")
+
+const decirHola = () => {   // sin parámetros
+    console.log("Hola!");
+}
+
+decirHola()
+
+const decirAdios = _ => {   // sin parámetros
+    console.log("Adios!");
+}
+
+decirAdios()
+
+const suma = (a, b) => {
+    return a + b
+}
+
+console.log(suma(2, 5));
+
+const resta = (a, b) => a - b // return implicito
+const major = (a, b) => a > b // return implicito
+
+console.log(resta(5, 2));
+console.log(major(5, 2));
+
+const preguntar = () => console.log("¿Qué tal?"); // ! ojo, función que no devuelve nada
+
+preguntar();
+
+console.log(preguntar());
+console.log(console.log("Omar")); // console.log() tampoco devuelve nada
+
+// Parámetros default -------------------------------------------------------
+
+function logColor(content, color = "purple") {  // paràmetro con valor default
+    console.log("%c" + content, "color: " + color);
+}
+
+logColor("Arnau")
+logColor("Arnau", "pink")
+
+// TODO: paràmetre amb valor default amb condicional
+
+// Funcions anónimes i autoexecutables ----------------------------------------
+
+const getName = () => "Marc"
+console.log("Hola, " + getName());
+
+console.log(  (  () => "Hola, Roselly"  )()  );
+
+// * funció anònima:
+/*
+(params) => { 
+    aquí hi ha codi
+    aquí hi ha més codi
+    return bla bla bla
+}
+*/
+
+// *  funció autoexecutable:
+(function cosa(param) {
+    console.log("Sóc autoexecutable " + param);
+})("yupiiii");
+
+// *  funció anònima i autoexecutable:
+cosa = (function (param) {
+    console.log("Sóc anònima i autoexecutable " + param);
+})("yupiiii");
+
+console.log(cosa); // undefined perquè la funció no retorna res
+
+// Funcions callback --------------------------------------------------------
+function logCustom(content, log) {
+    log(content)
+}
+
+logCustom("Omar", console.log)
+logCustom("Omar", logRojo)
+logCustom("Omar", logAzul)
+
+logCustom("Omar", (txt) => {
+    console.log("%c" + txt, "color: green");
+})
+
+logCustom("Omar", (txt) => console.log("%c" + txt, "color: orange"))
+
+// Funciones temporales ---------------------------------------------------
+
+setTimeout(logCustom("Me he ejecutado inmmediatamente!", logRojo), 2000)        // això s'executa immediatament
+// setTimeout(() => logCustom("ME he ejecutado después de dos segundos!", logRojo), 2000)  // això triga dos segons
+
+// setInterval(() => {
+//     console.log("Ha pasado un segundo!")
+//     console.log("");
+// }, 1000);
+
+setTimeout(() => {
+    logCustom("ME he ejecutado después de dos segundos!", logRojo)
+
+    setInterval(() => {
+        console.log("Ha pasado un segundo!")
+        console.log("");
+    }, 1000);
+}, 2000)  // això triga dos segons
+
