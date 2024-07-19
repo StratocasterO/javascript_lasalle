@@ -66,7 +66,7 @@ alumnos.forEach(alumno => {
 
 // TODO: fes un contador que mostri a la consola els números de l'1 al número que introdueixis com a paràmentre (fins a 1000 com a màxim)
 
-// TODO: fes un contador que només mostri els números que tinguin un dígit contingut a la string definida per l'usuari (amb prompt) fins a 100
+// TODO: fes un contador que només mostri els números que tinguin un dígit contingut a la string definida per l'usuari (amb prompt) fins a 100 (p.e. "234" mostra 2, 3, 4, 12, 13, 14, 20, 21, 22, 23, 24... , 47, 48, 49, 52, 53, 54...)
 
 // TODO: llista de la compra. Fes que un prompt es repeteixi fins que l'usuari introdueixi una paraula clau (useu BREAK); fins llavors, cada paraula introduida serà un item de la llista de la compra, que s'escriurà després de que l'usuari l'aturi amb el format:       
 //                       Llista de la compra:
