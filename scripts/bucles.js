@@ -60,3 +60,16 @@ console.log("----------------------");
 alumnos.forEach(alumno => {
     console.log("Hola, " + alumno);
 });
+
+
+// TODO: escribe un bucle que muestre 10 veces un mensaje por la consola con el text en color rojo y azul alternativamente
+
+// TODO: escribe un bucle que muestre los números del 0 al 20 y muestre a su lado "hola" si es multiple de 2, "adeu" si es multiple de 3 i "què tal?" si es múltiple de 5
+
+// TODO: fes un contador que només mostri els números que tinguin un dígit contingut a la string definida per l'usuari (amb prompt) fins a 100
+
+// TODO: llista de la compra. Fes que un prompt es repeteixi fins que l'usuari introdueixi una paraula clau; fins llavors, cada paraula introduida serà un item de la llista de la compra, que s'escriurà després de que l'usuari l'aturi amb el format:       
+//                       Llista de la compra:
+//                       - Pa
+//                       - Mantega
+//                       - Aigua
