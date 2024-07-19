@@ -41,10 +41,8 @@ professor = {
 }
 
 for (const propietat in professor) {
-    if (Object.hasOwnProperty.call(professor, propietat)) {
-        const element = professor[propietat];
-        console.log(`La propietat ${propietat} del professor té un valor de ${element}`);
-    }
+    const element = professor[propietat];
+    console.log(`La propietat ${propietat} del professor té un valor de ${element}`);
 }
 
 console.log("----------------------");
