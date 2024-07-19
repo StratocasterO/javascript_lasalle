@@ -35,6 +35,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - corregir exercicis condicionals
 - operador ternari `condicio ? certa : falsa` 
 - bucles: `for`, `for...of`, `for...in`, `while`, `foreach`
+- extres `Math`, `Date`, temporitzadors
 
 ## Recomendaciones y buenas prácticas
 
