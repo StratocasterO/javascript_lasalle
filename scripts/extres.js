@@ -3,3 +3,5 @@
 // Fechas
 
 // Temporizadores
+
+// Errores, try...catch
