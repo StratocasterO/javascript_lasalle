@@ -35,7 +35,17 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - corregir exercicis condicionals
 - operador ternari `condicio ? certa : falsa` 
 - bucles: `for`, `for...of`, `for...in`, `while`, `foreach`
-- extres `Math`, `Date`, temporitzadors
+- exercicis de bucles
+
+#### 20 de juliol
+- extres: `Math`, `Date`, temporitzadors
+- exercicis de repàs
+
+#### 26 de juliol
+- Lectura, escriptura, modificació del DOM
+
+#### 27 de juliol
+
 
 ## Recomendaciones y buenas prácticas
 
@@ -60,6 +70,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - [Curso de JavaScript de w3schools](https://www.w3schools.com/js/)
 - [State of JavaScript](https://2023.stateofjs.com/)
 - [Instagram David Mraz](https://www.instagram.com/davidm_ai/)
+- [Eloquent JavaScript](https://eloquent-javascript-es.vercel.app/)
 - Juegos CSS:
     - [CSS Dinner](https://flukeout.github.io/)
     - [Flexbox Froggy](https://flexboxfroggy.com/#es)
