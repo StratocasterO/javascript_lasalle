@@ -34,7 +34,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 #### 19 de juliol
 - corregir exercicis condicionals
 - operador ternari `condicio ? certa : falsa` 
-- bucles
+- bucles: `for`, `for...of`, `for...in`, `while`, `foreach`
 
 ## Recomendaciones y buenas prácticas
 
@@ -63,7 +63,6 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
     - [CSS Dinner](https://flukeout.github.io/)
     - [Flexbox Froggy](https://flexboxfroggy.com/#es)
     - [Grid Garden](https://cssgridgarden.com/)
-- YouTube
 - Extensions VSC:
     - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
     - [Open HTML in browser](https://marketplace.visualstudio.com/items?itemName=peakchen90.open-html-in-browser)
@@ -73,6 +72,9 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 ## Extres
 
+- Llenguatge de programació de visuals: [Processing](https://processing.org/)
+    - Canal de YouTube [The Coding Train](https://www.youtube.com/thecodingtrain)
+    - Llista de reproducció de [p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
 - [Lofi girl](https://www.youtube.com/watch?v=jfKfPfyJRdk) (hiphop)
 - [Synthwave boy](https://www.youtube.com/watch?v=4xDzrJKXOOY)
