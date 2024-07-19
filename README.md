@@ -33,6 +33,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 #### 19 de juliol
 - corregir exercicis condicionals
+- operador ternari `condicio ? certa : falsa` 
 - bucles
 
 ## Recomendaciones y buenas prácticas
