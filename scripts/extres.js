@@ -136,4 +136,6 @@ class Coche extends Vehicle {
 
 coche = new Coche("Ford", "Focus")
 console.log(coche.puertas);
+coche.puertas = 5;
+console.log(coche.puertas);
 coche.arrancar();
