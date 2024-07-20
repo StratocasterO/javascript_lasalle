@@ -82,17 +82,19 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
     - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
     - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
     - [To-do tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [Coding game](https://www.codingame.com/)
-- [Code wars](https://www.codewars.com/)
+- Pàgines on fer exercicis de programació en diferents llenguatges:
+    - [Coding game](https://www.codingame.com/) 
+    - [Code wars](https://www.codewars.com/)
 
 ## Extres
 
 - Llenguatge de programació de visuals: [Processing](https://processing.org/)
-    - Canal de YouTube [The Coding Train](https://www.youtube.com/thecodingtrain)
-    - Llista de reproducció de [p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+    - Canal de YouTube: [The Coding Train](https://www.youtube.com/thecodingtrain)
+    - [Llista de reproducció de p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [Pàgina de Google morse](https://experiments.withgoogle.com/collection/morse) 
     - [Aplicació](https://morse-learn.acecentre.net/) per aprendre morse
-- Aplicació per escriure pseudo-codi [PSeInt](https://pseint.sourceforge.net/)
+- Aplicació per escriure pseudo-codi: [PSeInt](https://pseint.sourceforge.net/)
+- [Alfabet radiofònic](https://ca.wikipedia.org/wiki/Alfabet_fon%C3%A8tic_de_l%27OTAN) (alpha, bravo, charlie, delta...)
 - Música per programar:
     - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
     - [Lofi girl](https://www.youtube.com/watch?v=jfKfPfyJRdk) (hiphop)
