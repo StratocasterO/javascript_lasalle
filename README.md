@@ -43,6 +43,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - exercicis de repàs
 
 #### 26 de juliol
+- Correcció exercicis de repàs
 - Lectura, escriptura, modificació del DOM
 
 #### 27 de juliol
