@@ -62,7 +62,20 @@ alumnos.forEach(alumno => {
 
 // TODO: escribe un bucle que muestre 10 veces un mensaje por la consola con el text en color rojo y azul alternativamente
 
-// TODO: escribe un bucle que muestre los números del 0 al 20 y muestre a su lado "hola" si es multiple de 2, "adeu" si es multiple de 3 i "què tal?" si es múltiple de 5
+for (let i = 0; i < 10; i++) {
+    if (i % 2 == 0) console.log("%cHolis, soy un mensaje azul 💙", "color: blue");  // pares
+    else console.log("%cHolis, soy un mensaje rosa 💗", "color: pink");             // impares
+}
+
+// TODO: escribe un bucle que muestre los números del 1 al 20 y muestre a su lado "hola" si es multiple de 2, "adeu" si es multiple de 3 i "què tal?" si es múltiple de 5
+
+for (let i = 1; i < 21; i++) {
+    let missatge = i
+    if (i % 2 === 0) missatge += " hola"
+    if (i % 3 === 0) missatge += " adeu"
+    if (i % 5 === 0) missatge += " què tal?"
+    console.log(missatge);
+}
 
 // TODO: fes un contador que mostri a la consola els números de l'1 al número que introdueixis com a paràmentre (fins a 1000 com a màxim)
 
