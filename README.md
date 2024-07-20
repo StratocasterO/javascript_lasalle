@@ -39,7 +39,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 #### 20 de juliol
 - corregir exercicis bucles
-- extres: `Math`, `Date`, temporitzadors, errors
+- extres: `Math`, `Date`, temporitzadors, errors, classes
 - exercicis de repàs
 
 #### 26 de juliol

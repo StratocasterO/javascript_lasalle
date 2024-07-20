@@ -10,7 +10,7 @@
 
 // TODO: paradoxa de l'aniversari. Genera N dates d'aniversari aleatòries (1-365) en un array i comprova si hi ha alguna repetida. Fes això per N = 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 i mostra a la consola per quins hi ha hagut coincidències d'aniversari
 
-// TODO: dues funcions que gestionin les dades rebudes en un array d'strings o en una string amb totes juntes
+// TODO: dues funcions que gestionin les dades rebudes en un array d'strings o en una string amb totes juntes i que retornin un objecte amb les dades introduïdes en propietats
 // data0 = "NOM Omar"
 // data1 = "COG Olmedo"   -> [data0, data1, data2, ...]
 // data2 = "AGE 33"
