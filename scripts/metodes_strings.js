@@ -70,11 +70,3 @@ censura = "el profe"
 console.log("Text normal: " + text);
 console.log("Text censurat: " + text.replace(nom, "".padEnd(nom.length, "X")));
 console.log("Text censurat: " + altered.replace(censura, "".padEnd(censura.length, "X")));
-
-// TODO: gestionar dades així amb bucles i condicionals (Això pel futur)
-
-data0 = "NOM Omar"
-data1 = "COG Olmedo"
-data2 = "AGE 33"
-
-data = "NOM Omar COG Olmedo AGE 33"
