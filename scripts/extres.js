@@ -101,3 +101,39 @@ try {
 }
 
 console.log("Hola")
+
+// Classes
+
+class Vehicle {
+    constructor(marca, modelo) {
+        this.marca = marca
+        this.modelo = modelo
+    }
+
+    arrancar() {
+        console.log("Arrancando");
+    }
+
+    frenar() {
+        console.log("Frenando");
+    }
+}
+
+moto = new Vehicle("Honda", "CBR")
+console.log(moto.modelo);
+moto.frenar();
+
+class Coche extends Vehicle {
+    constructor(marca, modelo, puertas) {
+        super(marca, modelo)
+        this.puertas = puertas
+    }
+
+    abrirMaletero() {
+        console.log("Abriendo el maletero");
+    }
+}
+
+coche = new Coche("Ford", "Focus")
+console.log(coche.puertas);
+coche.arrancar();
