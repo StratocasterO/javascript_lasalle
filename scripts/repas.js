@@ -1,3 +1,5 @@
+// TODO: mostra les taules de multiplicar del 1 al 9 per la consola
+
 // TODO: recrea la funció parseFloat() de manera que agafi els números encara que hi hagi lletres abans i accepti com a separador decimal els símbols ",", "." i "'". P.e: "hola89'234" ha de tornar "89.234", "43'35adeu" ha de tornar "43.35", "amor45.9odi" ha de tornar "45.9"
 
 // TODO: crea una funció que agafi un string i que torni una lletra aleatoria (sense contar espais i signes de puntuació)
