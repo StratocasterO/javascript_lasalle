@@ -1,5 +1,15 @@
 // TODO: mostra les taules de multiplicar del 1 al 9 per la consola
 
+console.log("%cEjercicio 1: tablas de multiplicar", "font-weight: bold");
+
+for (let i = 1; i < 10; i++) {
+    console.log(`Tabla del ${i}`);
+    for (let j = 1; j <= 10; j++) {
+        console.log(`   ${i} x ${j} = ${i * j}`);
+    }
+    console.log(``);
+}
+
 // TODO: recrea la funció parseFloat() de manera que agafi els números encara que hi hagi lletres abans i accepti com a separador decimal els símbols ",", "." i "'". P.e: "hola89'234" ha de tornar "89.234", "43'35adeu" ha de tornar "43.35", "amor45.9odi" ha de tornar "45.9", "234.1234.25.5" ha de tornar "234.1234"
 
 // TODO: crea una funció que agafi un string i que torni una lletra aleatoria (sense contar espais i signes de puntuació)
