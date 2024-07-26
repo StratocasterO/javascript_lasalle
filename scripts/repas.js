@@ -1,4 +1,4 @@
-// TODO: mostra les taules de multiplicar del 1 al 9 per la consola
+// mostra les taules de multiplicar del 1 al 9 per la consola
 
 console.log("%cEjercicio 1: tablas de multiplicar", "font-weight: bold");
 
@@ -10,9 +10,66 @@ for (let i = 1; i < 10; i++) {
     console.log(``);
 }
 
-// TODO: recrea la funció parseFloat() de manera que agafi els números encara que hi hagi lletres abans i accepti com a separador decimal els símbols ",", "." i "'". P.e: "hola89'234" ha de tornar "89.234", "43'35adeu" ha de tornar "43.35", "amor45.9odi" ha de tornar "45.9", "234.1234.25.5" ha de tornar "234.1234"
+// recrea la funció parseFloat() de manera que agafi els números encara que hi hagi lletres abans i accepti com a separador decimal els símbols ",", "." i "'". P.e: "hola89'234" ha de tornar "89.234", "43'35adeu" ha de tornar "43.35", "amor45.9odi" ha de tornar "45.9", "234.1234.25.5" ha de tornar "234.1234"
+
+// TODO: comprovar què passa amb els espais
+
+console.log("%cEjercicio 2: betterParse()", "font-weight: bold");
+
+function betterParse(string) {
+    let int = ``;   // acumulador
+    let abc = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`;
+    let sep = `,.'`;
+    
+    // recorre els caracters de la string
+    for (const char of string) {
+        // acumula els numeros
+        if (!abc.includes(char.toUpperCase()) && !sep.includes(char)) int += char
+
+        // detecta si hi ha un separador , . '
+        if (int.length > 0 && sep.includes(char)) {                     
+            if (int.includes('.')) break; // comprova si ja hi ha un punt
+            int += '.'
+        }                       
+        
+        // para d'acumular si després dels números troba una lletra
+        if (int.length > 0 && (abc.includes(char.toUpperCase()))) break;            
+    }
+
+    return int * 1;
+}
+
+console.log(betterParse("hola123"));
+console.log(betterParse("hola123omar456"));
+console.log(betterParse("hola123.45omar456"));
+console.log(betterParse("hola123'45omar456"));
+console.log(betterParse("hola123,45omar456"));
+console.log(betterParse("234.1234'25.5"));
+console.log(betterParse("234'1234,25.5"));
+console.log(betterParse("'.,123"));
+
+console.log(betterParse("hola89'234"));
+console.log(betterParse("43'35adeu"));
+console.log(betterParse("amor45.9odi"));
+console.log(betterParse("234.1234.25.5"));
+
+console.log("");
+
+// TODO (Extra): repetir la funció betterParse() però que si troba més d'un número retorni un array amb tots ells
+
+console.log("%cEjercicio 2.1: betterBetterParse()", "font-weight: bold");
+console.log("TODO");
+console.log("");
 
 // TODO: crea una funció que agafi un string i que torni una lletra aleatoria (sense contar espais i signes de puntuació)
+
+console.log("%cEjercicio 3: randomLetter()", "font-weight: bold");
+
+function randomLetter(string) {
+    
+}
+
+console.log("");
 
 // TODO: crea una funció que agafi un text i li'n separi les paraules (sense signes de puntuació) i les torni en un nou string separades per espais (sense usar arrays)
 
