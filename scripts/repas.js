@@ -18,22 +18,22 @@ console.log("%cEjercicio 2: betterParse()", "font-weight: bold");
 
 function betterParse(string) {
     let int = ``;   // acumulador
-    let abc = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`;
-    let sep = `,.'`;
+    const ABC = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`;
+    const SEP = `,.'`;
     
     // recorre els caracters de la string
     for (const char of string) {
         // acumula els numeros
-        if (!abc.includes(char.toUpperCase()) && !sep.includes(char)) int += char
+        if (!ABC.includes(char.toUpperCase()) && !SEP.includes(char)) int += char
 
         // detecta si hi ha un separador , . '
-        if (int.length > 0 && sep.includes(char)) {                     
+        if (int.length > 0 && SEP.includes(char)) {                     
             if (int.includes('.')) break; // comprova si ja hi ha un punt
             int += '.'
         }                       
         
         // para d'acumular si després dels números troba una lletra
-        if (int.length > 0 && (abc.includes(char.toUpperCase()))) break;            
+        if (int.length > 0 && (ABC.includes(char.toUpperCase()))) break;            
     }
 
     return int * 1;
@@ -61,17 +61,41 @@ console.log("%cEjercicio 2.1: betterBetterParse()", "font-weight: bold");
 console.log("TODO");
 console.log("");
 
-// TODO: crea una funció que agafi un string i que torni una lletra aleatoria (sense contar espais i signes de puntuació)
+// crea una funció que agafi un string i que torni una lletra aleatoria (sense contar espais i signes de puntuació)
 
 console.log("%cEjercicio 3: randomLetter()", "font-weight: bold");
 
 function randomLetter(string) {
+    const ABC = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`;
+    let stringNoSpaces = ''
+
+    for (const char of string) {
+        if (ABC.includes(char.toUpperCase())) stringNoSpaces += char
+    }
+
+    if (!stringNoSpaces) return "No hay letras en esa string!"
     
+    return stringNoSpaces[parseInt(stringNoSpaces.length * Math.random())]
 }
+
+console.log(randomLetter("hola, Omar. Cómo estas?"));
+console.log(randomLetter("1234a"));
 
 console.log("");
 
-// TODO: crea una funció que agafi un text i li'n separi les paraules (sense signes de puntuació) i les torni en un nou string separades per espais (sense usar arrays)
+// TODO: crea una funció que rebi lletres accentuades i torni la mateixa sense accentuar P.e: ò -> o, ë -> e, î -> i...
+
+// crea una funció que agafi un text i li'n separi les paraules (sense signes de puntuació) i les torni en un nou string separades per espais (sense usar arrays)
+
+console.log("%cEjercicio 4: separateWords()", "font-weight: bold");
+
+function separateWords(string) {
+    
+}
+
+console.log(separateWords("hola, Omar. Cómo estas?"));
+
+console.log('');
 
 // TODO: crea una funció que agafi un string i que torni una paraula aleatòria continguda en ella (sense usar arrays)
 
