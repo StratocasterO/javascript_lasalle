@@ -68,7 +68,7 @@ console.log("%cEjercicio 3: randomLetter()", "font-weight: bold");
 function randomLetter(string) {
     const ABC = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZ`;
     let stringNoSpaces = ''
-
+    
     for (const char of string) {
         if (ABC.includes(char.toUpperCase())) stringNoSpaces += char
     }
@@ -90,14 +90,67 @@ console.log("");
 console.log("%cEjercicio 4: separateWords()", "font-weight: bold");
 
 function separateWords(string) {
+    const ABC = `ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÀÈÌÒÙÄËÏÖÜ`;
+    let words = '';
     
+    for (const char of string) {
+        if (ABC.includes(char.toUpperCase())) {
+            words += char
+        }
+
+        // afegeix un espai si troba un espai o un apostrof i no s'ha afegit un espai al pas anterior
+        if ((char == ' ' || char == "'") && words[words.length - 1] != ' ') {
+            words += " "
+        }
+    }
+    
+    // elimina espai al principi
+    if (words[0] == ' ') words = words.slice(1)
+        
+        // elimina espai al final
+    if (words[words.length - 1] == ' ') words = words.slice(0, -1)
+        
+    return words
 }
 
 console.log(separateWords("hola, Omar. Cómo estas?"));
+console.log(separateWords("l'Omar és el nostre profe"));
+console.log(separateWords(`El Carlos dijo: "¡Omar! ¡Cuidado!"`));
+console.log(separateWords(`   El Carlos    dijo: "¡Omar!    ¡Cuidado!"    `));
 
 console.log('');
 
 // TODO: crea una funció que agafi un string i que torni una paraula aleatòria continguda en ella (sense usar arrays)
+
+console.log("%cEjercicio 5: randomWord()", "font-weight: bold");
+
+function randomWord(string) {
+    string = separateWords(string)
+    let spaces = 0
+    
+    for (const char of string) {
+        if (char == " ") spaces++
+    }
+
+    let wordNum = parseInt((spaces + 1) * Math.random())
+    
+    if (wordNum == 0) return string.slice(0, string.indexOf(" "))
+
+    for (let i = 0; i < wordNum; i++) {
+        string = string.slice(string.indexOf(" ") + 1)
+    }
+
+    if (string.indexOf(" ") == -1) return string
+
+    return string.slice(0, string.indexOf(" "))
+}
+
+console.log(randomWord("hola, Omar. Cómo estas?"));
+console.log(randomWord("l'Omar és el nostre profe"));
+console.log(randomWord(`El Carlos dijo: "¡Omar! ¡Cuidado!"`));
+console.log(randomWord(`   El Carlos    dijo: "¡Omar!    ¡Cuidado!"    `));
+
+console.log(' ');
 
 // TODO: paradoxa de l'aniversari. Genera N dates d'aniversari aleatòries (1-365) en un array i comprova si hi ha alguna repetida. Fes això per N = 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 i mostra a la consola per quins hi ha hagut coincidències d'aniversari
 
