@@ -120,7 +120,7 @@ console.log(separateWords(`   El Carlos    dijo: "¡Omar!    ¡Cuidado!"    `));
 
 console.log('');
 
-// TODO: crea una funció que agafi un string i que torni una paraula aleatòria continguda en ella (sense usar arrays)
+// crea una funció que agafi un string i que torni una paraula aleatòria continguda en ella (sense usar arrays)
 
 console.log("%cEjercicio 5: randomWord()", "font-weight: bold");
 
