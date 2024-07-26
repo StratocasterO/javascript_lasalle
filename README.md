@@ -47,7 +47,15 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Lectura, escriptura, modificació del DOM
 
 #### 27 de juliol
+- 
+- Exercicis DOM
 
+#### Deures agost
+- Acabar exericis de repàs
+- Exercicis DOM
+- Pensar coses per afegir al landing + recerca
+- Actualitzar els apunts
+- Portar dubtes si en teniu
 
 ## Recomendaciones y buenas prácticas
 
@@ -67,6 +75,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 ## Recursos
 
 - [Repositorio del curso](https://github.com/StratocasterO/javascript_lasalle)
+- Notion con [recursos de backend, JavaScript, testing, buenas prácticas, etc](https://laser-mahogany-1e9.notion.site/)
 - [Newsletter Cassidy Williams](https://cassidoo.co/newsletter/)
 - [MDN Web docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Curso de JavaScript de w3schools](https://www.w3schools.com/js/)
@@ -97,6 +106,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - [Pàgina de Google morse](https://experiments.withgoogle.com/collection/morse) 
     - [Aplicació](https://morse-learn.acecentre.net/) per aprendre morse
 - Aplicació per escriure pseudo-codi: [PSeInt](https://pseint.sourceforge.net/)
+- Web dels premis [Awwwards](https://www.awwwards.com/) (per buscar exemples de webs innovadores)
 - [Alfabet radiofònic](https://ca.wikipedia.org/wiki/Alfabet_fon%C3%A8tic_de_l%27OTAN) (alpha, bravo, charlie, delta...)
 - Música per programar:
     - [Lofi medieval](https://www.youtube.com/watch?v=_uMuuHk_KkQ&ab_channel=LofiGirl)
