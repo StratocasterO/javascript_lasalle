@@ -75,6 +75,13 @@ formButton.addEventListener("click", () => {
 
     console.log({name, email, message});
 
+    // mostra el contingut enviat al HTML
+    document.querySelector("form div").innerHTML += `<small>Response sent: ${[name, email, message]}</small>`
+
+    // L'elimina al cap de 3 segons
+    setTimeout(() => document.querySelector("form div").innerHTML = "", 3000)
+
+    // Neteja el formulari
     document.querySelector("#name").value = ""
     document.querySelector("#email").value = ""
     document.querySelector("#message").value = ""
