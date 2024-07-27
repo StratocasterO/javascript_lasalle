@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeners</title>
+    <link rel="shortcut icon" href="../img/js.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(250, 249, 248);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            margin: auto;
+            width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        header,
+        section,
+        footer {
+            padding: 20px;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            border-bottom: 1px solid #ddd;
+        }
+
+        img {
+            max-height: 200px;
+            height: auto;
+            float: left;
+            margin: 5px 15px 0 0;
+        }
+
+        form {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        label,
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .resaltado {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        #resalta {
+            position: sticky;
+            top: 30px;
+            left: 30px;
+            width: fit-content;
+            padding: 10px;
+            margin-top: 30px;
+            background-color: rgb(156, 214, 156);
+            border: 0;
+        }
+
+        #resalta:active {
+            background-color: rgb(114, 190, 114);
+        }
+
+        /* #section3 {
+            transition: all 1s;
+            height: 500px;
+            overflow: hidden;
+        }
+        .hidden {
+            height: 0px;
+        } */
+    </style>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <h3>Pàgina de proves modificant el DOM amb JavaScript</h3>
+    </header>
+    <div class="cont">
+        <button id="resalta"> Señala lo más importante </button>
+
+        <main>
+            <section id="section1">
+                <h2 onclick="clicEnSeccion()">Section 1</h2>
+                <img onclick="console.log('Soy el gatito número 1');" src="https://via.placeholder.com/600x400"
+                    alt="Placeholder Image 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni porro minima nisi labore
+                    corporis
+                    doloremque fuga sed culpa, adipisci maxime at vel iure necessitatibus nam cum. Ut iste impedit illum
+                    nemo distinctio, dolorem quae provident, <span class="custom">doloremque qui sequi quis
+                        maiores</span>
+                    sunt non nam! <span class="resaltado">
+                        Enim, doloribus aspernatur asperiores itaque magnam quibusdam dignissimos eum ipsa
+                        veritatis corporis minima voluptas voluptatem ut hic mollitia earum consectetur ipsum nobis
+                    </span>, autem
+                    eligendi obcaecati non aliquam inventore esse. Modi sint repellat alias impedit nemo esse.</p>
+            </section>
+
+            <section id="section2">
+                <h2 onclick="clicEnSeccion()">Section 2</h2>
+                <img onclick="console.log('Soy el gatito número 2');" src="https://via.placeholder.com/600x400"
+                    alt="Placeholder Image 2">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quasi nostrum culpa delectus, error
+                    earum? <span class="resaltado">Saepe laboriosam sint repellat aliquid?</span> Nulla eum fugiat
+                    minima
+                    repudiandae, quia a at, <span class="custom">alias non est modi repellat omnis aut possimus
+                        recusandae
+                        iure</span>! Minima eveniet
+                    nemo reprehenderit maiores et error architecto veniam? Atque, sed praesentium consectetur delectus,
+                    iusto qui non alias perferendis, quibusdam officia placeat.</p>
+            </section>
+
+            <section id="section3" class="hidden">
+                <h2 onclick="clicEnSeccion()">Section 3</h2>
+                <img onclick="console.log('Soy el gatito número 3');" src="https://via.placeholder.com/600x400"
+                    alt="Placeholder Image 3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut ea facere magnam rerum perferendis
+                    possimus
+                    asperiores hic quisquam accusamus consequatur alias laborum molestias enim, voluptatum adipisci
+                    error.
+                    <span class="custom">Nihil perferendis, animi enim libero iste sunt inventore ipsum maiores ab autem
+                        officia vitae</span>. Cupiditate alias blanditiis tenetur atque incidunt magni explicabo sequi
+                    obcaecati dolores esse hic nulla inventore quibusdam cumque enim aliquam earum, excepturi facilis,
+                    assumenda velit! Numquam sunt error cumque consequatur.
+                </p>
+                <p><span class="resaltado">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Vitae vel
+                    ipsum
+                    dolorem alias est. Odit suscipit
+                    neque accusamus inventore tenetur adipisci ad aut, rem ab.</p>
+            </section>
+
+            <section id="formSection">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+            <p>Prem F12 per obrir la consola i veure els logs</p>
+            <a href="../apunts.html">Volver a los apuntes</a>
+
+        </main>
+        <footer>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="../scripts/listeners.js"></script>
+</body>
+
+</html>

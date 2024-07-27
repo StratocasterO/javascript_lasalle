@@ -102,7 +102,7 @@ section2OriginalContent = document.querySelector("#section2").innerHTML
 
 section2.innerHTML += '<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, itaque! Explicabo quibusdam harum mollitia dolorem asperiores quis. Cupiditate est, perferendis quasi cumque iste molestiae reprehenderit!</p>'
 
-section2.innerHTML += '<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus amet sunt voluptates consequuntur ad perspiciatis labore error impedit aliquid architecto veniam earum exercitationem aliquam tenetur, <span class="custom">blanditiis voluptatibus explicabo quod numquam enim fugiat!</span> Tenetur doloremque assumenda cupiditate blanditiis saepe necessitatibus omnis!</p>'
+section2.innerHTML += '<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="resaltado">Doloribus amet sunt voluptates consequuntur ad perspiciatis labore error impedit aliquid architecto veniam earum exercitationem aliquam tenetur</span>, <span class="custom">blanditiis voluptatibus explicabo quod numquam enim fugiat!</span> Tenetur doloremque assumenda cupiditate blanditiis saepe necessitatibus omnis!</p>'
 
 // selecciona més d'un element amb un selector
 const images = document.querySelectorAll("img")
@@ -127,6 +127,7 @@ customTexts[0].style.fontWeight = "bold"
 customTexts[1].style.fontStyle = "italic"
 customTexts[2].style.color = "#b13cb9"
 customTexts[3].style.fontVariant = "small-caps"
+customTexts[3].style.fontSize = "1.2em"
 
 // accés a les propietats renderitzades d'un element (NO ÉS DOM!! ⚠)
 const titol = document.querySelector("h1")
