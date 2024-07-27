@@ -47,7 +47,8 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Lectura, escriptura, modificació del DOM
 
 #### 27 de juliol
-- 
+- Gestió d'esdeveniments amb _onclick_ i _addEventListener()_
+- Modificació de les classes (_classList_)
 - Exercicis DOM
 
 #### Deures agost
@@ -55,7 +56,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Exercicis DOM
 - Pensar coses per afegir al landing + recerca
 - Actualitzar els apunts
-- Portar dubtes si en teniu
+- Portar dubtes (apuntats i concrets ⚠)
 
 ## Recomendaciones y buenas prácticas
 
@@ -100,6 +101,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 
 - Article sobre [rendiment dels diferents loops](https://garden.bradwoods.io/notes/javascript/performance/loops)
 - Article sobre [evolució de les classes a JavaScript](https://webreflection.co.uk/blog/2015/11/07/the-history-of-simulated-classes-in-javascript/)
+- Article sobre [diferències entre _document_ i _window_](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
 - Llenguatge de programació de visuals: [Processing](https://processing.org/)
     - Canal de YouTube: [The Coding Train](https://www.youtube.com/thecodingtrain)
     - [Llista de reproducció de p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
