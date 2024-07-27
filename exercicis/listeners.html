@@ -65,7 +65,7 @@
             margin-bottom: 10px;
         }
 
-        input[type="submit"] {
+        input[type="button"] {
             background-color: #4CAF50;
             color: white;
             border: none;
@@ -73,7 +73,7 @@
             padding: 10px;
         }
 
-        input[type="submit"]:hover {
+        input[type="button"]:hover {
             background-color: #45a049;
         }
 
@@ -87,18 +87,20 @@
         }
 
         #resalta {
+            color: white;
             position: sticky;
             top: 30px;
             left: 30px;
             width: fit-content;
             padding: 10px;
             margin-top: 30px;
-            background-color: rgb(156, 214, 156);
+            background-color: rgb(114, 190, 114);
             border: 0;
+            cursor: pointer;
         }
 
         #resalta:active {
-            background-color: rgb(114, 190, 114);
+            background-color: rgb(156, 214, 156);
         }
 
         /* #section3 {
@@ -116,7 +118,7 @@
 <body>
     <header>
         <h1>Welcome to Our Website</h1>
-        <h3>Pàgina de proves modificant el DOM amb JavaScript</h3>
+        <h3>Pàgina de proves gestionant esdeveniments amb JavaScript</h3>
     </header>
     <div class="cont">
         <button id="resalta"> Señala lo más importante </button>
@@ -173,17 +175,17 @@
 
             <section id="formSection">
                 <h2>Contact Us</h2>
-                <form action="#" method="post">
+                <form>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" placeholder="Name Surname">
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" placeholder="name@surname.com">
 
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message goes here"></textarea>
 
-                    <input type="submit" value="Submit">
+                    <input type="button" value="Submit" id="submit">
                 </form>
             </section>
 

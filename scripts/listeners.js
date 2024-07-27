@@ -47,3 +47,60 @@ botonResaltar.addEventListener("click", (event) => {
 })
 
 // ! ⚠ NOTA: els listeners dels paràgrafs de la secció 2 s'han perdut al reescriure el seu innerHTML a la línia 26
+
+// gestionar el contingut del formulari
+let formButton = document.querySelector("#submit")
+formButton.addEventListener("click", () => {
+    let name = document.querySelector("#name").value
+    let email = document.querySelector("#email").value
+    let message = document.querySelector("#message").value
+
+    if (!name.match(/^[a-z ,.'-]+$/i)) {
+        console.log("%cFormato del nombre incorrecto", "color: red");
+        return
+    }
+
+    if (!email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)) {
+        console.log("%cFormato del email incorrecto", "color: red");
+        return
+    }
+    
+    if (!message.match(/(.|\s)*\S(.|\s)*/)) {
+        console.log("%cEl mensaje no puede estar en blanco", "color: red");
+        return
+    }
+
+    console.log(`El usuario ${name} (${email}) ha escrito:
+        ${message}`)
+
+    console.log({name, email, message});
+
+    document.querySelector("#name").value = ""
+    document.querySelector("#email").value = ""
+    document.querySelector("#message").value = ""
+})
+
+// validació del formulari
+let nameForm = document.querySelector("#name")
+nameForm.addEventListener("keyup", (event) => {
+    if (event.target.value.match(/^[a-z ,.'-]+$/i)) event.target.style.border = "3px solid green"
+    else {
+        event.target.style.border = "3px solid red"
+    }
+})
+
+let email = document.querySelector("#email")
+email.addEventListener("keyup", (event) => {
+    if (event.target.value.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/)) event.target.style.border = "3px solid green"
+    else {
+        event.target.style.border = "3px solid red"
+    }
+})
+
+let message = document.querySelector("#message")
+message.addEventListener("keyup", (event) => {
+    if (event.target.value.match(/(.|\s)*\S(.|\s)*/)) event.target.style.border = "3px solid green"
+    else {
+        event.target.style.border = "3px solid red"
+    }
+})
