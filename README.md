@@ -49,11 +49,11 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 #### 27 de juliol
 - Gestió d'esdeveniments amb _onclick_ i _addEventListener()_
 - Modificació de les classes (_classList_)
-- Exercicis DOM
+- [Exercicis DOM](http://stratocastero.github.io/javascript_lasalle/exercicis/exercicisDOM.html)
 
 #### Deures agost
 - Acabar exericis de repàs
-- Exercicis DOM
+- [Exercicis DOM](http://stratocastero.github.io/javascript_lasalle/exercicis/exercicisDOM.html)
 - Pensar coses per afegir al landing + recerca
 - Actualitzar els apunts
 - Portar dubtes (apuntats i concrets ⚠)
