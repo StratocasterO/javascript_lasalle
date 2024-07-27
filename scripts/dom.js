@@ -12,11 +12,6 @@ console.log(document.querySelector("h1").style)
 console.log(document.querySelector("h1").innerHTML)
 console.log(document.querySelector("h1").innerText)
 
-// accés a les propietats renderitzades d'un element (NO ÉS DOM!! ⚠)
-const titol = document.querySelector("h1")
-console.log(window.getComputedStyle(titol).getPropertyValue("color"))
-console.log(window.getComputedStyle(titol).getPropertyValue("font-family"))
-
 // innerHTMl vs innerText vs textContent
 console.log(document.querySelector("header").innerHTML)
 console.log(document.querySelector("header").textContent)
@@ -132,3 +127,8 @@ customTexts[0].style.fontWeight = "bold"
 customTexts[1].style.fontStyle = "italic"
 customTexts[2].style.color = "#b13cb9"
 customTexts[3].style.fontVariant = "small-caps"
+
+// accés a les propietats renderitzades d'un element (NO ÉS DOM!! ⚠)
+const titol = document.querySelector("h1")
+console.log(window.getComputedStyle(titol).color)
+console.log(window.getComputedStyle(titol).fontFamily)
