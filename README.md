@@ -96,12 +96,21 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Pàgines on fer exercicis de programació en diferents llenguatges:
     - [Coding game](https://www.codingame.com/) 
     - [Code wars](https://www.codewars.com/)
+    - [Codédex](https://www.codedex.io/home)
+    - [LeetCode](https://leetcode.com/)
+- APIs gratis para usar en los proyectos:
+    - [The Cat API](https://thecatapi.com/)
+    - [The Simpsons Quote API](https://thesimpsonsquoteapi.glitch.me/)
+    - [Star Wars API](https://swapi.dev/)
+    - [Pokeapi](https://pokeapi.co/)
 
 ## Extres
 
+- Juego de [verificación de contraseña](https://thepasswordgame.io/)
 - Article sobre [rendiment dels diferents loops](https://garden.bradwoods.io/notes/javascript/performance/loops)
 - Article sobre [evolució de les classes a JavaScript](https://webreflection.co.uk/blog/2015/11/07/the-history-of-simulated-classes-in-javascript/)
 - Article sobre [diferències entre _document_ i _window_](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
+- Artículo con diferentes animaciones hechas usando [_box-shadow_](https://dgerrells.com/blog/how-not-to-use-box-shadows)
 - Llenguatge de programació de visuals: [Processing](https://processing.org/)
     - Canal de YouTube: [The Coding Train](https://www.youtube.com/thecodingtrain)
     - [Llista de reproducció de p5.js](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
