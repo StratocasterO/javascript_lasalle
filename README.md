@@ -103,7 +103,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
     - [The Simpsons Quote API](https://thesimpsonsquoteapi.glitch.me/)
     - [Star Wars API](https://swapi.dev/)
     - [Pokeapi](https://pokeapi.co/)
-    - [Scryfall - MTG](https://scryfall.com/docs/api)
+    - [Magic The Gathering - Scryfall](https://scryfall.com/docs/api)
 
 ## Extres
 
