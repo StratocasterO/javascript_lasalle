@@ -1,0 +1,20 @@
+for (let i = 0; i < 10; i++) {
+    showCard();
+}
+
+function showCard() {
+    fetch("https://api.scryfall.com/cards/random")
+        .then(res => res.json())
+        .then(res => {
+            console.log(res);
+
+            if (res.image_uris && res.image_uris.png) {
+                let body = document.querySelector("body")
+                body.innerHTML += `<img src="${res.image_uris.png}" height="300px" style="margin: 5px" alt="" srcset="">`
+                return;
+            }
+        
+            console.log("One card does not have PNG image");
+            showCard();
+        })
+}
