@@ -8,13 +8,13 @@ function showCard() {
         .then(res => {
             console.log(res);
 
-            if (res.image_uris && res.image_uris.png) {
+            if (res.image_uris && res.image_uris.normal) {
                 let body = document.querySelector("body")
                 body.innerHTML += `<img src="${res.image_uris.normal}" height="300px" style="margin: 5px" alt="" srcset="">`
                 return;
             }
         
-            console.log("One card does not have PNG image");
+            console.log("One card does not have image");
             showCard();
         })
 }
