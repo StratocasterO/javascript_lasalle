@@ -58,6 +58,23 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Actualitzar els apunts
 - Portar dubtes (apuntats i concrets ⚠)
 
+#### 13 de setembre
+- Exercici de repàs de maquetació
+- Correcció [exercicis DOM](http://stratocastero.github.io/javascript_lasalle/exercicis/exercicisDOM.html)
+
+#### 14 de setembre
+- 
+
+#### 20 de setembre
+- 
+
+#### 21 de setembre
+- 
+
+#### 27 de setembre
+- 
+
+
 ## Recomendaciones y buenas prácticas
 
 - [Apunts HTML + CSS + JS](http://stratocastero.github.io/javascript_lasalle/apunts.html)
