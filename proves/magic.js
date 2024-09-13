@@ -10,7 +10,7 @@ function showCard() {
 
             if (res.image_uris && res.image_uris.png) {
                 let body = document.querySelector("body")
-                body.innerHTML += `<img src="${res.image_uris.png}" height="300px" style="margin: 5px" alt="" srcset="">`
+                body.innerHTML += `<img src="${res.image_uris.normal}" height="300px" style="margin: 5px" alt="" srcset="">`
                 return;
             }
         
