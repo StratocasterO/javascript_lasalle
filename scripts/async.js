@@ -1,0 +1,2 @@
+// exercicis asincronia
+
