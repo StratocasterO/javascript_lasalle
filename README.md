@@ -63,7 +63,10 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Correcció [exercicis DOM](http://stratocastero.github.io/javascript_lasalle/exercicis/exercicisDOM.html)
 
 #### 14 de setembre
-- 
+- Validació DNI i targeta bancària
+- Promises
+- Asincronia amb _async-await_ i _then-catch_
+- Crides a una API amb _fetch()_
 
 #### 20 de setembre
 - 
