@@ -69,8 +69,10 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 - Crides a una API amb _fetch()_
 
 #### 20 de setembre
-- Correcció [exercicis DOM](http://stratocastero.github.io/javascript_lasalle/exercicis/exercicisDOM.html)
+- Renderitzat condicional amb els resultats d'una API
 - Temes d'un web (clar/fosc)
+- Canvi d'idioma d'un web (CAT/ES/EN)
+- Fetch + targetes
 
 #### 21 de setembre
 - 
