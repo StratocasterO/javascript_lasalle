@@ -48,9 +48,9 @@ function setLanguage(lang) {
 let theme = document.querySelector("#theme")
 
 // Comprovo si al local storage hi ha un tema guardat
-if(window.localStorage.getItem("theme")) {
+if(localStorage.getItem("theme")) {
     if (localStorage.getItem("theme") == "dark") setTheme("dark")
-} else window.localStorage.setItem("theme", "light")
+} else localStorage.setItem("theme", "light")
 
 // Canvio el tema al clicar el botó
 theme.addEventListener("click", () => {
@@ -59,14 +59,16 @@ theme.addEventListener("click", () => {
 })
 
 // Funció que canvia el tema
-function setTheme(theme) {
-    if (theme == "dark") {
+function setTheme(newTheme) {
+    if (newTheme == "dark") {
         document.querySelector("link[rel='stylesheet']").href = "../styles/dark.css"
         theme.innerText = "🌞"
-        window.localStorage.setItem("theme", "dark")
+        console.log("holaaaaa");
+        
+        localStorage.setItem("theme", "dark")
     } else {
         document.querySelector("link[rel='stylesheet']").href = "../styles/light.css"
         theme.innerText = "🌚"
-        window.localStorage.setItem("theme", "light")
+        localStorage.setItem("theme", "light")
     }
 }

@@ -24,7 +24,6 @@ main {
     display: inline-block;
     text-align: center;
 }
-
 #lang {
     position: fixed;
     top: 10px;
@@ -55,4 +54,10 @@ img {
 }
 #theme:hover {
     background-color: gray;
+}
+a.link {
+    color: rgb(177, 177, 255)
+}
+a.link:visited {
+    color: rgb(226, 185, 255)
 }
