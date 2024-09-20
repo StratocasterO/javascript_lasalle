@@ -12,7 +12,6 @@ let content = document.querySelectorAll(".trans")
 if (localStorage.getItem("lang")) {
     if (localStorage.getItem("lang") == "es") setLanguage("es")
     else if (localStorage.getItem("lang") == "en") setLanguage("en")
-    else localStorage.setItem("lang", "cat")
 } else localStorage.setItem("lang", "cat")
 
 // TODO: refactorizar para que use [lang] ⬇
@@ -42,4 +41,32 @@ function setLanguage(lang) {
 
     // Guardo l'idioma actual
     localStorage.setItem("lang", lang)
+}
+
+// -------------------------------------------------------------------------------------------
+
+let theme = document.querySelector("#theme")
+
+// Comprovo si al local storage hi ha un tema guardat
+if(window.localStorage.getItem("theme")) {
+    if (localStorage.getItem("theme") == "dark") setTheme("dark")
+} else window.localStorage.setItem("theme", "light")
+
+// Canvio el tema al clicar el botó
+theme.addEventListener("click", () => {
+    if (localStorage.getItem("theme") == "light") setTheme("dark")
+    else setTheme("light")
+})
+
+// Funció que canvia el tema
+function setTheme(theme) {
+    if (theme == "dark") {
+        document.querySelector("link[rel='stylesheet']").href = "../styles/dark.css"
+        theme.innerText = "🌞"
+        window.localStorage.setItem("theme", "dark")
+    } else {
+        document.querySelector("link[rel='stylesheet']").href = "../styles/light.css"
+        theme.innerText = "🌚"
+        window.localStorage.setItem("theme", "light")
+    }
 }

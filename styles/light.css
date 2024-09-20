@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(250, 249, 248);
+    font-family: 'Courier New', Courier, monospace;
+}
+main {
+    margin: auto;
+    width: 800px;
+}
+.bold {
+    font-weight: bold;
+}
+#lang a:hover {
+    background-color: rgb(178, 178, 178);
+}
+#lang a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+#lang {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+img {
+    float: left;
+    height: 250px;
+    margin: 0 20px 10px 0
+}
+#lang a.active {
+    background-color: rgb(178, 178, 178);
+}
+#theme {
+    text-decoration: none;
+    background-color: rgb(178, 178, 178);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+#theme:hover {
+    background-color: gray;
+}
