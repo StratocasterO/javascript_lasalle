@@ -75,7 +75,6 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
 #### 21 de setembre
 - Renderitzat condicional amb els resultats d'una API
 - Fetch + targetes
-- 
 
 #### 27 de setembre
 - 
