@@ -106,6 +106,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
     - [Array sort](https://www.w3schools.com/js/js_array_sort.asp#mark_numeric)
     - [Array find](https://www.w3schools.com/js/js_array_search.asp#mark_find)
     - [Array filter](https://www.w3schools.com/js/js_array_iteration.asp#mark_filter)
+    - [Input select custom](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_custom_select)
 - [State of JavaScript](https://2023.stateofjs.com/)
 - [Instagram David Mraz](https://www.instagram.com/davidm_ai/)
 - [Eloquent JavaScript](https://eloquent-javascript-es.vercel.app/)
