@@ -54,7 +54,3 @@ console.log(numbers);
 
 animals.sort() // les strings s'ordenen "alfabeticament" (i.e. per numero d'unicode)
 console.log(animals);
-
-// TODO: métodos de ordenación compleja: sort()
-
-// TODO: métodos de busqueda compleja: find()
