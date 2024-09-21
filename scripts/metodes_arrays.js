@@ -54,3 +54,8 @@ console.log(numbers);
 
 animals.sort() // les strings s'ordenen "alfabeticament" (i.e. per numero d'unicode)
 console.log(animals);
+
+// ordenar alfabèticament sense tenir en compte majúscules i minúscules
+things = ["Instagram", "Youtube", "cafe", "discord"]
+things.sort((a,b) => a.localeCompare(b))
+console.log(things);
