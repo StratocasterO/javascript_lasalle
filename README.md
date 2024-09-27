@@ -134,6 +134,7 @@ Repositori pel mòdul de JavaScript del curs de frontend de La Salle (28 de juny
     - [Pokeapi](https://pokeapi.co/)
     - [Magic The Gathering - Scryfall](https://scryfall.com/docs/api)
 - [Lit Element](https://lit.dev/): libreria web components (para crear etiquetas HTML personalizadas y mucho más)
+- [Tempo](https://tempo.formkit.com/): llibreria per donar format a dates
 
 ## Extres
 
